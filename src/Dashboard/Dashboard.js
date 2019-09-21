@@ -3,7 +3,7 @@ import React from "react";
 import AppBar from './AppBar';
 import Breadcrumbs from './Breadcrumbs';
 import Content from './Content';
-import Cards from './Cards';
+
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -22,7 +22,6 @@ class Dashboard extends React.Component {
             </div>
             <div>
               <Content></Content>
-              {/* <Cards></Cards> */}
             </div>
         </div>
     );
