@@ -28,10 +28,13 @@ export default function CustomSeparator() {
     <div className={classes.root}>
       <Paper elevation={0} className={classes.paper}>
         <Breadcrumbs separator={<NavigateNextIcon fontSize="small" />} aria-label="breadcrumb">
-          <Link color="inherit" a href="/customer" onClick={handleClick}>
+          <Link color="inherit" href="/" onClick={handleClick}>
             Home
           </Link>
-          <Typography color="textPrimary">Dashboard</Typography>
+          <Link color="inherit" href="/dashboard" onClick={handleClick}>
+            Dashboard
+          </Link>
+          <Typography color="textPrimary">Customer</Typography>
         </Breadcrumbs>
       </Paper>
     </div>

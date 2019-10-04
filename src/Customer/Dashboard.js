@@ -1,9 +1,11 @@
 import React from "react";
 
 import AppBar from '../Common/AppBar';
-//import Imagebar from './Imagebar';
 import Breadcrumbs from './Breadcrumbs';
-import Content from './Content';
+//import Content from './Content';
+import Form from "./Form";
+import Formone from "./Formone";
+import Formx from './Formx'
 
 
 class Dashboard extends React.Component {
@@ -16,16 +18,16 @@ class Dashboard extends React.Component {
     return (
         <div>
             <div>
-                <AppBar></AppBar>
+              <AppBar></AppBar>
             </div>
             <div>
               
             </div>
             <div>
-                <Breadcrumbs></Breadcrumbs>
+              <Breadcrumbs></Breadcrumbs>
             </div>
             <div>
-              <Content></Content>
+              <Form></Form>
             </div>
         </div>
     );

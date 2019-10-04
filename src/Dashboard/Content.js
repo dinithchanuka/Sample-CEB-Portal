@@ -41,7 +41,8 @@ export default function ImgMediaCard() {
             </CardContent>
           </CardActionArea> 
           <CardActions>
-            <Button variant="outlined" color="primary" className={classes.button}>
+            <Button variant="outlined" color="primary" className={classes.button}
+            a href="/customer">
               More
             </Button>
           </CardActions>
